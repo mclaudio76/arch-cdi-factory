@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CDIServiceLocatorEJB">
+        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
+        <property name="ClientJARURI" value="CDIServiceLocatorEJBClient.jar"/>
+        <property name="ClientProject" value="CDIServiceLocatorEJBClient"/>
+        <property name="java-output-path" value="/CDIServiceLocatorEJB/build/classes"/>
+    </wb-module>
+</project-modules>

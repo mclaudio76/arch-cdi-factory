@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CDIServiceLocatorEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="CDIServiceLocatorWeb.war" deploy-path="/" handle="module:/resource/CDIServiceLocatorWeb/CDIServiceLocatorWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CDIServiceLocatorEJBClient.jar" deploy-path="/lib" handle="module:/resource/CDIServiceLocatorEJBClient/CDIServiceLocatorEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CDIServiceLocatorEJB.jar" deploy-path="/" handle="module:/resource/CDIServiceLocatorEJB/CDIServiceLocatorEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
