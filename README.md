@@ -31,5 +31,5 @@ Requirements: JDK 1.8+
 
 Tested on: JBoss WildFly 10.0 final (http://wildfly.org)
 Build with Eclipse Mars 2.0 (https://eclipse.org).
-To compile source code, pleae define a JDK runtime and change JRE Library settings in each project property view on Eclipse accordingly.
+To compile source code, please define a JDK 1.8 runtime and change JRE Library settings in each project property view on Eclipse accordingly.
 
